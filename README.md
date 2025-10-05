@@ -1,4 +1,4 @@
-# Docker CI/CD Python App
+# Mastering PyCharm
 
 ![alternative text](img/readme_image.jpg)
 
