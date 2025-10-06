@@ -18,7 +18,7 @@ def read_readme(filename):
 
 def read_version():
     try:
-        filename = os.path.join(os.path.dirname(__file__), 'jinja_partials', '__init__.py')
+        filename = os.path.join(os.path.dirname(__file__), '02_jinja_partials', '__init__.py')
         with open(filename, mode="r", encoding='utf-8') as fin2:
             for line in fin2:
                 if line and line.strip() and line.startswith('__version__'):
@@ -30,7 +30,7 @@ def read_version():
 
 
 setup(
-    name="jinja_partials",
+    name="02_jinja_partials",
     version=read_version(),
     url="https://github.com/mikeckennedy/jinja_partials",
     license='MIT',
