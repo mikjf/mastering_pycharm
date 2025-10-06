@@ -1,6 +1,7 @@
 import httpx
 from colorama import Fore
 
+
 def main():
     print('-' * 60)
     print('Talk Python title finder')
@@ -24,7 +25,6 @@ def get_title(episode_number: int) -> str:
     resp.raise_for_status()
 
     return resp.text.strip()
-
 
 
 if __name__ == '__main__':
