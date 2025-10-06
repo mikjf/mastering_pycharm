@@ -1,0 +1,24 @@
+# Core frameworks
+flask
+fastapi
+
+# Templates
+jinja2
+jinja_partials
+
+# Data validation
+pydantic
+
+# HTTP client
+httpx
+
+# Utilities
+colorama
+
+# Dev & testing
+pytest
+pytest-clarity
+
+# Packaging
+hatchling>=1.21.0
+hatch-vcs>=0.3.0
