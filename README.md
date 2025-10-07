@@ -1,47 +1,56 @@
-# Mastering PyCharm
+# Effective PyCharm
 
 ![alternative text](img/readme_image.jpg)
 
-#### -- Project Status: [Completed]
+#### -- Project Status: [In Progress]
 
-## Objective
-Build a simple Python application, containerize it using Docker, automate the build and push process using GitHub Actions for Continuous Integration and Continuous Delivery (CI/CD).
+## Objective  
+A hands-on playground for mastering PyCharm and enhancing your Python development workflow through real-world demos and exercises.
 
-### Project structure
-* `.github/workflows/main.yml` - GitHub Actions workflow for CI/CD
-* `.dockerignore` - Files and directories excluded from Docker builds
-* `.gitignore` - Files and directories excluded from Git version control
-* `Dockerfile` - Instructions to containerize the application
-* `compose.yaml` - Docker Compose file (optional for future use)
-* `main.py` - Main Python application file
-* `requirements.txt` - Python dependencies
+## Project structure
+- **Create uv environment** 
+- **Jinja templates**: examples of rendering templates with data  
+- **Jumpstart project**: Django/Flask starter for quick apps  
+- **PyCharm setup notes**: how to configure the IDE for Python development  
 
-### Technologies and packages
-* Python 3.12
-* Docker
-* Docker Compose
-* GitHub Actions
+## Technologies and packages  
+- **Python 3.x**  
+- **Jinja2** (templating)  
+- **Flask or Django** (depending on the Jumpstart app)  
+- **PyCharm** (IDE)  
+- **pip / venv** for package management  
 
-### Setup instructions
+## Setup instructions
 
-#### Run Docker Init to create Dockerfile
+### 01. Create uv environment  
 ```bash
-docker init
+pip install uv
+uv venv
+source .venv/bin/activate   # Linux/Mac
+.venv\Scripts\activate      # Windows
+uv pip install -r requirements.txt
+````
 
-# Answer prompts:
-# - Platform: Python
-# - Python version: 3.12.10
-# - Port: 8002
-# - Run command: python main.py
+---
+
+### 02. Jinja templates
+
+Run a simple Jinja example:
+
+```python
+from jinja2 import Template
+
+template = Template("Hello {{ name }}!")
+print(template.render(name="World"))
 ```
 
-#### GitHub Actions CI/CD
-* Set up Docker Hub credentials in GitHub Actions (Settings -> Secrets and Variables -> Actions)
-* Add variable DOCKER_USERNAME and secret DOCKERHUB_TOKEN
-* Push to `main` branch automatically triggers Docker image build and pushes to Docker Hub
+---
 
-#### Run locally with Docker
+### 03. Jumpstart projects
+
+**Flask:**
+
 ```bash
-docker build -t docker_ci_cd_app .
-docker run docker_ci_cd_app
+export FLASK_APP=app.py
+flask run
 ```
