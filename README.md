@@ -22,7 +22,7 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 
 ## Setup instructions
 
-### 01. Create uv environmentt
+### 01. Create uv environment
 ```bash
 pip install uv
 uv venv
