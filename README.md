@@ -48,9 +48,51 @@ print(template.render(name="World"))
 
 ### 03. Jumpstart projects
 
-**Flask:**
+Flask:
 
 ```bash
 export FLASK_APP=app.py
 flask run
 ```
+
+---
+
+### 04. Code with me podcast
+
+Use JetBrains Code With Me to code together in real time:
+
+```python
+File -> Code With Me -> Start Session
+```
+
+---
+
+### 05. The Editor
+
+Learn how to customize PyCharm’s editor for maximum productivity:
+
+```python
+Keymap shortcuts, themes and fonts, split views, code navigation tips
+```
+
+---
+
+### 06. Debugging
+
+Hands-on debugging using PyCharm’s tools:
+
+```python
+Run -> Debug
+```
+
+---
+
+### 07. Source control
+
+xxx:
+
+```python
+xxx
+```
+
+---
