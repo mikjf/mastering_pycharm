@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block main_content %}
+
+<h1>Flask Orders</h1>
+
+{% for o in orders %}
+    <div>
+        <span style="font-weight: bold;">{{ o.name }}</span>
+        <span>{{ o.price }}</span>
+    </div>
+{% endfor %}
+
+{% endblock %}
