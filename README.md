@@ -14,15 +14,20 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 - **PyCharm setup notes**: how to configure the IDE for Python development  
 
 ## Technologies and packages  
-- **Python 3.x**  
-- **Jinja2** (templating)  
-- **Flask or Django** (depending on the Jumpstart app)  
-- **PyCharm** (IDE)  
-- **pip / venv** for package management  
+- **Python 3.x**
+- **Jinja2** (templating)
+- **Flask or Django** (depending on the Jumpstart app)
+- **PyCharm** (IDE)
+- **pip / venv** for package management
 
 ## Setup instructions
 
 ### 01. Create uv environment
+
+- Benefits of using an IDE over text editors  
+- PyCharm editions (Community vs Pro)  
+- How to get started with the course resources  
+
 ```bash
 pip install uv
 uv venv
@@ -66,8 +71,9 @@ flask run
 
 ### 05. The Editor
 
-- Learn how to customize PyCharm’s editor for maximum productivity
-- Keymap shortcuts, themes and fonts, split views, code navigation tips
+- Autocompletion, syntax highlighting, and type hints  
+- Hotkeys, code intentions, and live templates  
+- OOP helpers and collaborative editing  
 
 ---
 
@@ -80,21 +86,74 @@ flask run
 
 ### 07. Source control
 
-- xxx
-- xxx
+- Git integration in PyCharm  
+- Committing, merging, and resolving conflicts  
+- Line history and code lens features  
 
 ---
 
 ### 08. Refactoring
 
-- xxx
-- xxx
+- Refactoring tools and safe code improvements  
+- Common refactoring actions (rename, extract, etc.)  
+- Benefits for clean and maintainable code  
 
 ---
 
-### 09. Adv analysis project
+### 09. Jupyter notebooks
 
-- xxx
-- xxx
+- Running notebooks inside PyCharm  
+- Exploring data with Pandas and matplotlib  
+- Converting notebooks to Python scripts  
 
 ---
+
+### 10. Full-stack web apps
+
+- Creating Flask applications in PyCharm  
+- Managing frontend (HTML, CSS, static files)  
+- Debugging and running web apps smoothly  
+
+---
+
+### 11. Flask app
+
+- Create Flask app in PyCharm  
+- Add routes, templates, static files  
+- Run & test the app  
+
+---
+
+### 12. HTTP Testing
+- Create HTTP requests  
+- Use variables & collections  
+- Advanced request testing  
+
+---
+
+### 13. Databases
+- Connect to databases  
+- Query & visualize data  
+- Use diagrams & SQL support
+
+---
+
+### 14. Testing
+- Supported test frameworks  
+- Write and run tests  
+- Test coverage in PyCharm  
+
+---
+
+### 15. Python Packages
+- Create and manage packages  
+- Handle dependencies  
+- Package a real project  
+
+---
+
+### 16. Performance and profiling
+- Profiling code execution  
+- Identify performance issues  
+- Measure indirect effects
+
