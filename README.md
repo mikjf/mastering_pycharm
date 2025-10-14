@@ -69,7 +69,7 @@ flask run
 
 ---
 
-### 05. The Editor
+### 05. The editor
 
 - Autocompletion, syntax highlighting, and type hints  
 - Hotkeys, code intentions, and live templates  
@@ -124,7 +124,7 @@ flask run
 
 ---
 
-### 12. HTTP Testing
+### 12. HTTP testing
 - Create HTTP requests  
 - Use variables & collections  
 - Advanced request testing  
@@ -145,7 +145,7 @@ flask run
 
 ---
 
-### 15. Python Packages
+### 15. Python packages
 - Create and manage packages  
 - Handle dependencies  
 - Package a real project  
