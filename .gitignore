@@ -109,3 +109,5 @@ extra_samples/profiling/pos.txt
 extra_samples/profiling/stop.txt
 /extra_samples/autos/data/vehicles.csv
 demos/projects/packages/calc/dist
+/requirements.piptools
+/requirements.txt
