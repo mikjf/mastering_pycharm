@@ -1,0 +1,17 @@
+### GET request to example server
+# @no-redirect
+GET https://talkpython.com
+
+### GET all blog posts
+GET https://{{base_url}}/api/blog
+
+### POST create a new blog entry
+POST https://{{base_url}}/api/blog
+Content-Type: application/json
+
+{
+  "published": "2025-04-01",
+  "view_count": 1234,
+  "content": "Yolo body",
+  "title": "Yolo title"
+}
