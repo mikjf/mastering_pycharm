@@ -133,7 +133,7 @@ flask run
 
 ### 13. Databases
 - Connect to databases  
-- Query & visualize data  
+- Perform queries & visualize data  
 - Use diagrams & SQL support
 
 ---
