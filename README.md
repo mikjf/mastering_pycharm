@@ -155,4 +155,4 @@ flask run
 ### 16. Performance and profiling
 - Profiling code execution  
 - Identify performance issues  
-- Measuring indirect effects
+- Measure indirect effects
