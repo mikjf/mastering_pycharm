@@ -106,7 +106,7 @@ build-backend = "hatchling.build"
 name = "calcy"
 version = "0.0.1"
 description = "A LIBRARY DESCRIPTION"
-# readme = "readme.md"
+# readme = "expl.md"
 license = "MIT"
 authors = [
     { name = "YOUR NAME", email = "youremail@email.com" }
