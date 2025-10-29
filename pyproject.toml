@@ -32,6 +32,7 @@ dependencies = [
     "executing==2.2.1",
     "fastapi==0.118.0",
     "fastjsonschema==2.21.2",
+    "flake8>=7.3.0",
     "flask==3.1.2",
     "fonttools==4.60.1",
     "fqdn==1.5.1",

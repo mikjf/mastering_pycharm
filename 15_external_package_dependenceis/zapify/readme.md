@@ -1,3 +1,22 @@
+# Zapify, good by bugs!
+
+1) new folder "python package"
+2) __init__.py
+2) create pyproject.toml
+3) uv build
+4) will create a "dist" folder with the built package
+5) import packages in __init__.py
+6) bump up the version in __init__.py
+7) pyproject.toml need to be update with the correct version
+8) uv publish
+
+How to make it installable:
+
+1) don't use setup.py
+2) use pyproject.toml
+
+# Detailed project example
+
 # Your turn: Packaging
 
 ## Objectives
@@ -38,7 +57,7 @@ For this section:
 
 Use PyCharm's "create package" feature to create the package implementation itself. Name it **`calcy`** as in calculator.
 
-![Python package](./resources/new-package.png)
+![Python package](new-package.png)
 
 Notice it created the empty `__init__.py` for you and the folder icon is slightly different to indicate a package.
 
