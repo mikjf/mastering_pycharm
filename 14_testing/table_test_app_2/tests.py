@@ -3,20 +3,28 @@ import core
 
 
 def test_there_are_tables_available():
-    assert False, "Use core to find_available by choice, make sure there is at least one"
+    choice = 1
+    one_tables = core.find_available(choice)
+    assert len(one_tables)
 
 
 def test_table_can_be_booked():
-    assert False, "Get a table (all tables), book it by ID, verify it is booked"
+    table = core.all_tables()[0]
+    booked_table = core.book_table(table.table_id)
+    assert table.is_booked
+    assert table.table_id == booked_table.table_id
 
 
 def test_cannot_book_a_nonexistant_table():
     with pytest.raises(core.EntityNotFoundError):
-        # TODO: verify you cannot book a nonexistant table
-        pass
+        core.book_table('not-a-table-id')
 
 
 def test_cannot_book_a_booked_table():
+    table = core.find_available(2)[0]
+    core.book_table(table.table_id)
+
+    # add exception if table is booked
     with pytest.raises(core.TableUnavailableError):
-        # TODO: verify you cannot book a table that is already booked
-        pass
+        print("Pushing our luck!")
+        core.book_table(table.table_id)
