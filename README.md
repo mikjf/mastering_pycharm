@@ -20,7 +20,7 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 - **PyCharm** (IDE)
 - **pip / venv** for package management
 
-## Setup instructions
+## Setup instructions and main topics
 
 ### 01. Create uv environment
 
