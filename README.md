@@ -16,7 +16,7 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 ## Technologies and packages  
 - **Python 3.x**
 - **Jinja2** (templating)
-- **Flask or Django** (depending on the Jumpstart app)
+- **Flask or Django** (depending on the app)
 - **PyCharm** (IDE)
 - **pip / venv** for package management
 
