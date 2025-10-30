@@ -1,4 +1,4 @@
-# Effective PyCharm
+# Mastering PyCharm
 
 ![alternative text](img/readme_image.jpg)
 
