@@ -24,17 +24,8 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 
 ### 01. Create uv environment
 
-- Benefits of using an IDE over text editors  
-- PyCharm editions (Community vs Pro)  
-- How to get started with the course resources  
-
-```bash
-pip install uv
-uv venv
-source .venv/bin/activate   # Linux/Mac
-.venv\Scripts\activate      # Windows
-uv pip install -r requirements.txt
-````
+- Create and activate a uv environment
+- Install dependencies and start coding in PyCharm
 
 ---
 
@@ -42,27 +33,19 @@ uv pip install -r requirements.txt
 
 Run a simple Jinja example:
 
-```python
-from jinja2 import Template
-
-template = Template("Hello {{ name }}!")
-print(template.render(name="World"))
-```
+- Render templates dynamically with variables
+- Reuse partials for cleaner project structure
 
 ---
 
-### 03. Jumpstart projects
+### 03. Projects
 
-Flask:
-
-```bash
-export FLASK_APP=app.py
-flask run
-```
+- Jumpstart apps with Flask or Django
+- Explore project structure and run demos
 
 ---
 
-### 04. Code with me podcast
+### 04. Code with me
 
 - Use JetBrains Code With Me to code together in real time
 - File -> Code With Me -> Start Session
