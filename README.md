@@ -2,7 +2,7 @@
 
 ![alternative text](img/readme_image.jpg)
 
-#### -- Project Status: [In Progress]
+#### -- Project Status: [Completed]
 
 ## Objective  
 A hands-on playground for mastering PyCharm and enhancing your Python development workflow through real-world demos and exercises.
