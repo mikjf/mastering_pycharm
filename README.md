@@ -31,8 +31,6 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 
 ### 02. Jinja templates
 
-Run a simple Jinja example:
-
 - Render templates dynamically with variables
 - Reuse partials for cleaner project structure
 
