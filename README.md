@@ -27,111 +27,81 @@ A hands-on playground for mastering PyCharm and enhancing your Python developmen
 - Create and activate a uv environment
 - Install dependencies and start coding in PyCharm
 
----
-
 #### 02. Jinja templates
 
 - Render templates dynamically with variables
 - Reuse partials for cleaner project structure
-
----
 
 #### 03. Projects
 
 - Jumpstart apps with Flask or Django
 - Explore project structure and run demos
 
----
-
 #### 04. Code with me
 
 - Use JetBrains Code With Me to code together in real time
 - File -> Code With Me -> Start Session
 
----
-
 #### 05. The editor
 
 - Autocompletion, syntax highlighting, and type hints  
 - Hotkeys, code intentions, and live templates  
-- OOP helpers and collaborative editing  
-
----
+- OOP helpers and collaborative editing
 
 #### 06. Debugging
 
 - Hands-on debugging using PyCharm’s tools
 - Run -> Debug
 
----
-
 #### 07. Source control
 
 - Git integration in PyCharm  
 - Committing, merging, and resolving conflicts  
-- Line history and code lens features  
-
----
+- Line history and code lens features
 
 #### 08. Refactoring
 
 - Refactoring tools and safe code improvements  
 - Common refactoring actions (rename, extract, etc.)  
-- Benefits for clean and maintainable code  
-
----
+- Benefits for clean and maintainable code
 
 #### 09. Jupyter notebooks
 
 - Running notebooks inside PyCharm  
 - Exploring data with Pandas and matplotlib  
-- Converting notebooks to Python scripts  
-
----
+- Converting notebooks to Python scripts
 
 #### 10. Full-stack web apps
 
 - Creating Flask applications in PyCharm  
 - Managing frontend (HTML, CSS, static files)  
-- Debugging and running web apps smoothly  
-
----
+- Debugging and running web apps smoothly
 
 #### 11. Flask app
 
 - Create Flask app in PyCharm  
 - Add routes, templates, static files  
-- Run & test the app  
-
----
+- Run & test the app
 
 #### 12. HTTP testing
 - Create HTTP requests  
 - Use variables & collections  
-- Advanced request testing  
-
----
+- Advanced request testing
 
 #### 13. Databases
 - Connect to databases  
 - Perform queries & visualize data  
 - Use diagrams & SQL support
 
----
-
 #### 14. Testing
 - Supported test frameworks  
 - Write and run tests  
-- Test coverage in PyCharm  
-
----
+- Test coverage in PyCharm
 
 #### 15. Python packages
 - Create and manage packages  
 - Handle dependencies  
-- Package a real project  
-
----
+- Package a real project
 
 #### 16. Performance and profiling
 - Profiling code execution  
